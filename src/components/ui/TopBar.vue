@@ -73,7 +73,7 @@
             <UserPicture
               :picture="user.picture.value"
               :username="user.primaryUsername.value"
-              :size="40"
+              :size="264"
               dinoType="Staff"
             ></UserPicture>
           </template>
@@ -267,5 +267,7 @@ export default {
 .top-bar__user-menu-toggle img,
 .top-bar__search-toggle img {
   margin-right: 0;
+  width: 40px;
+  height: 40px;
 }
 </style>

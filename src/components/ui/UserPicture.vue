@@ -4,7 +4,7 @@
       :class="cls"
       :src="src"
       alt=""
-      :width="size"
+      :width="40"
       role="presentation"
       aria-hidden="true"
     />
